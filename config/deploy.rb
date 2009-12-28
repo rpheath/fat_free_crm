@@ -1,7 +1,7 @@
 set :application, "fat_free_crm"
 set :repository,  "git://github.com/rpheath/fat_free_crm.git"
  
-server "crm.ircwv.com", :app, :web, :db, :primary => true
+server "192.168.20.176", :app, :web, :db, :primary => true
 
 set :deploy_to, "/var/www/#{application}"
 set :scm, :git
